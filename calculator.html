@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <style>
+    .calculator {
+      background-color: black;
+      padding: 15px;
+      border-radius: 5px;
+      height: 57vh;
+      width: 53vh;
+    }
+    .calculator input {
+      height: 40px;
+      width: 95%;
+      border-radius: 5px;
+      background-color: rgb(109, 201, 16);
+      border: 2px solid rgb(109, 201, 16);
+      margin-bottom: 15px;
+    }
+    button {
+      width: 75px;
+      height: 50px;
+      font-weight: 900;
+      margin: 3px;
+      font-size: 20px;
+      border: none;
+      border-radius: 3px;
+    }
+    .bg-but {
+      background-color: blue;
+      color: white;
+    }
+  </style>
+  <body
+    style="
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      margin-top: 100px;
+    "
+  >
+    <div class="calculator">
+      <input type="text" />
+      <table>
+        <tr>
+          <td>
+            <button style="background-color: red; color: white">C</button>
+          </td>
+          <td><button class="bg-but">/</button></td>
+          <td><button class="bg-but">*</button></td>
+          <td><button class="bg-but">-</button></td>
+        </tr>
+        <tr>
+          <td><button>7</button></td>
+          <td><button>8</button></td>
+          <td><button>9</button></td>
+          <td><button class="bg-but">+</button></td>
+        </tr>
+        <tr>
+          <td><button>4</button></td>
+          <td><button>5</button></td>
+          <td><button>6</button></td>
+          <td rowspan="3"><button style="height: 170px; background-color: rgb(122, 169, 74); color: white;">=</button></td>
+        </tr>
+        <tr>
+          <td><button>1</button></td>
+          <td><button>2</button></td>
+          <td><button>3</button></td>
+        </tr>
+        <tr>
+          <td><button>0</button></td>
+          <td><button>.</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
